@@ -1,0 +1,57 @@
+body {
+    background-color: antiquewhite;
+    color: #333333;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+   
+}
+
+header {
+    text-align: center;
+    
+}
+
+.jesus {
+    color: #8B2E2E;
+    font-size: 50px;
+}
+
+
+
+
+
+.atonement {
+    color: #8B2E2E;
+}
+
+.miracles {
+    color: #6A4C93;
+    font-style: italic;
+}
+
+
+#Prabhu {
+    color: #6A4C93;
+    font-weight: bold;
+}
+
+
+.highlight {
+    color: #8B2E2E;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #777777;
+}
+.q1 {
+     color: #6A4C93;
+}
+.q2 {
+     color: #8B2E2E;
+}
+.q3 {
+     color: #6A4C93;
+}
