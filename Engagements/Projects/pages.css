@@ -1,0 +1,113 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #161414;
+
+  background-image: url(background.jpg);
+       
+            
+  background-repeat: repeat, no-repeat;
+  background-position: center, top right;
+  background-size: auto, 120px;
+}
+
+.flag {
+ top: 30px;
+  right: 30px;     
+
+    
+}
+
+
+
+header {
+  background-color: transparent;
+  color: transparent;
+  text-align: center;
+  
+
+}
+
+header h1 {
+
+  font-size: 2.2em;
+}
+
+
+nav ul {
+  list-style-type: none; 
+  
+}
+H1 {
+    color: #03045e;
+}
+.active {
+    color: #c53636;
+    font-weight: bold;
+}
+
+
+nav a {
+  color: rgb(24, 23, 22);
+  text-decoration: none;
+  font-weight: bold;
+
+  
+}
+
+nav a:hover {
+  background-color: #ffcc66;
+  color: #b93c3c;
+}
+
+
+nav a.current {
+  background-color: transparent;
+  color: green;
+}
+
+
+p {
+  font-size: 12pt;
+  color: rgb(32, 31, 31);
+  line-height: 1.6;
+}
+
+main {
+
+  
+  background-color: transparent;
+
+  
+}
+
+main h2, main h3 {
+  color: #ff6600;
+  text-align: center;
+}
+
+.tour-list {
+  list-style-image: url("star.jpg");
+
+  
+}
+
+
+footer {
+  background-color: #03045e;
+  color: white;
+  text-align: center;
+
+  font-size: 0.9em;
+
+}
+
+footer .author {
+  font-weight: bold;
+  color: #ffd60a;
+}
+
+#year {
+  font-style: italic;
+}
+
+
