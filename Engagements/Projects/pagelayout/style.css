@@ -1,0 +1,48 @@
+body {
+    background-image: url("background2.jpg");
+    
+}
+h1 {
+    color:rgb(24, 22, 22);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:lighter;
+    line-height: 20px;
+    text-align:center;
+    text-shadow: 10px 10px 10px rgb(22, 175, 73);
+    border:5px solid black;
+    padding:30px;
+
+}
+nav {
+    text-align:center;
+}
+p{
+    color:rgb(32, 32, 34);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style:italic;
+}
+nav a {color:rgb(25, 29, 29);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     text-transform:capitalize;
+     margin: 20px;
+     border:3px solid rgb(32, 57, 36);
+     border-radius:5px;
+     padding:5px; 
+     box-shadow:5px 5px 5px black;
+} 
+nav a:hover {color:darkslateblue;}
+nav a:active {color:deeppink;}
+img {
+    width: 400px;
+    height:400px;
+}
+#wrapper {
+    width: 900px;
+    height:600px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+figure{
+    float: left;
+}
