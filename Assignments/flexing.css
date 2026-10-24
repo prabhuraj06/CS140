@@ -1,0 +1,36 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.footers a{
+    display: block;
+    padding: 5px;
+    text-align: center;
+}
+.mainside{
+    display: flex;
+    flex-flow: row;
+
+}
+aside{
+    width:250px;
+    padding:5px ;
+    flex-shrink: 0;
+}
+figure{
+    margin: 0px;
+
+}
+.level1{
+    width: 200px;
+    border: black 2px solid;
+    margin: 50px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
