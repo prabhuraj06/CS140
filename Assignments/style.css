@@ -53,3 +53,24 @@ nav {
     display: flex;
     flex-wrap: wrap;
 }
+@media ONLY screen AND (max-width: 680px)  {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .parent {flex-direction: column-reverse;
+    align-items: center;}
+    .sidebar {
+        width: 100%;
+    }
+    main {width: 100%
+        ;}
+        .card{
+            width: 95%;
+        }
+}
+@media print {
+    nav {
+        display: none;
+    }
+}
