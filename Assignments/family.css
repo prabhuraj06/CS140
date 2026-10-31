@@ -1,0 +1,34 @@
+.mainside{
+    display: flex;
+    flex-flow: row;
+
+}
+aside{
+    width: 30%;
+    padding:5px ;
+    flex-shrink: 0;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.picture1{
+    width: 300px;
+    border: black 2px solid;
+    margin: 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+@media ONLY screen AND (max-width:500px){
+    nav{
+        flex-direction: column;
+    }
+    .mainside{
+        flex-direction: column-reverse;
+    }
+    aside{
+        width: 100%;
+    }
+}
