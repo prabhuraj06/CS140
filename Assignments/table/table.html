@@ -4,40 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>table</title>
+    <link rel="stylesheet" href="table.css">
 </head>
 <body>
     <header><h1>Rajini's </h1></header>
     <main>
-        <table>
+        <table border="1">
+            <caption>BYUH classes for semester</caption>
             <thead>
                 <tr>
-                    <th>DEPT</th>
-                    <th>Num</th>
+                    <th scope="col">DEPT</th>
+                    <th scope="col">Num</th>
                     <th>Name</th>
                     <th>Location</th>
                     <th>Time</th>
                     <th>Credits</th>
-                    <th>Hello</th>
+                    
                 </tr>
                 <tr>
-                    <th>Fall 2026 </th>
+                    <th colspan="6">Fall 2026 </th>
+                    
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td> CS  </td>
+                    <td scope = "row"> CS  </td>
                     <td>  140  </td>
+                    <td>web Designing</td>
+                    <td>portable 2</td>
+                    <td>11am</td>
+                    <td>3</td>
+
                 </tr>
                 <tr>
-                    <td> CS  </td>
-                    <td>  401 </td>     
+                    <td>EIL </td>
+                    <td>201 </td>   
+                    <td>English</td>
+                    <td>Mckay180</td>
+                    <td>3pm</td>
+                    <td>2</td>  
+
                 </tr>
+                <tr>
+                    <td>EIL</td>
+                    <td>313</td>
+                    <td>English</td>
+                    <td>Mckay159</td>
+                    <td>9am</td>
+                    <td>4</td>
+                </tr>
+
+                <tr>
+                    <td>EIL</td>
+                    <td>317</td>
+                    <td>English</td>
+                    <td>Mckay150</td>
+                    <td>10am</td>
+                    <td>4</td>
+                </tr>
+
+                <tr>
+                    <td>STEDV</td>
+                    <td>100</td>
+                    <td>student development</td>
+                    <td>CAC</td>
+                    <td>8am</td>
+                    <td>1</td>
+
+                </tr>
+                <tr>
+                    <th colspan="6">Winter 2027 </th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2"> CS  </td>
+                    <td>  101  </td>
+                    <td>python</td>
+                    <td>portable 2</td>
+                    <td>11am</td>
+                    <td>3</td>
+
+                </tr>
+                <tr>
+                    <td>202</td>
+                    <td>java</td>
+                    <td>portable 2</td>
+                    <td>12pm</td>
+                    <td>3</td>
+                </tr>
+
                 
 
             </tbody>
+            <tfoot>
+
+            </tfoot>
+            <tr>
+                <td colspan="5">Total</td>
+                <td>20</td>
+            </tr>
+
 
 
         </table>
     </main>
+    <p>You use a table strictly for tabular data, meaning information that naturally belongs in a grid of rows and columns</p>
+    <p>You should never use tables for website layout design (like trying to arrange paragraphs, images, sidebars, or buttons on a page). Years ago, developers used tables for layout, but today we use modern CSS tools like Flexbox and Grid for page structure. Tables are only meant for data!</p>
+    <p>You need to add extra work (like <caption>, scope attributes, or advanced headers attributes) whenever your table has more than simple data, or anytime you want to ensure screen reader users can easily understand it. If a table has merged cells (rowspan or colspan) or multiple layers of headers, a screen reader can get lost without explicit attributes telling it which header matches which cell.</p>
+    <p>Questions about how screen readers read tables and how to use scope are often the most eye-opening! They shift your mindset from just making a webpage look good visually to making sure it is inclusive and functional for every user.</p>
+    <p>No, it did not</p>
+
 </body>
 </html>
