@@ -25,10 +25,23 @@ nav a:hover {
 }
 
 .friends {
+    
     display: flex;
     flex-direction: row-reverse;
-
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 0;
+    padding: 0px;
 }
+
+main {
+    flex: 1;
+    min-width: 0;
+}
+
+
+
 aside {
     width: 250px;
 }
@@ -37,9 +50,9 @@ aside {
     border-collapse: separate;
     caption-side: top;
     border-spacing: 4px;
-    width: auto;
+    width: 100%;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
     height: 30px;
     background-color: rgb(191, 217, 230);
 
