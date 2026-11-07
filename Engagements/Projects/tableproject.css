@@ -1,0 +1,87 @@
+body { background-color: rgb(91, 180, 207);
+font-family: cursive;}
+header h1 {
+    background-color: antiquewhite;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px;
+    padding: 15px;
+}
+nav {
+    background-color: rgb(159, 216, 169);
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+
+}
+nav a {
+    color: rgb(117, 73, 73);
+    display: block;
+
+}
+nav a:hover {
+    background-color: burlywood;
+}
+
+.friends {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+aside {
+    width: 250px;
+}
+#schedule {
+    border: 2px solid black;
+    border-collapse: separate;
+    caption-side: top;
+    border-spacing: 4px;
+    width: auto;
+    margin: auto;
+    padding: 20px;
+    height: 30px;
+    background-color: rgb(191, 217, 230);
+
+}
+#schedule td,th {
+    border: 2px solid black;
+    padding: 5px;
+    height: 20px;
+
+}
+#schedule thead tr {
+    background-color: beige;
+
+}
+#schedule tfoot tr {
+  background-color: beige;
+
+
+}
+#schedule tbody tr:nth-child(even) {
+    background-color: cadetblue;
+
+}
+#schedule tbody tr:nth-child(odd) {
+    background-color: rgb(181, 231, 227);
+}
+@media only screen and (max-width:600px) {
+        body {
+            background-color: cornsilk;
+        }
+        .friends {
+            flex-direction: column-reverse;
+        }
+        nav
+        {
+            flex-direction: column;
+        }
+        aside {
+            width: 100%;
+        }
+        #schedule {
+            width: 100%;
+        }
+    
+}
