@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <header>
+        <h1> Rajini's web design</h1>
+    </header>
+    <main>
+        <form action="formprocessing.html" method="get">
+            <div class="form-row"
+            <label for="personname"> Full Name</label> 
+            <input id="personname" type="text" name="fullname" placeholder="fullname"
+        </div>
+        <div class="form-row">
+            <label for="state">state</label>
+            <select name="state" id="state">
+                <option value="Tamilnadu">Tamilnadu</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Andhrapradesh">Andhrapradesh</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Telangana">Telangana</option>
+
+                
+            </select>
+            <input type="text" name="email">
+        </div>
+        <div class="form-row"> password: 
+             <input type="password" name="password" placeholder="maximum11character"
+        </div>
+        <div class="form-row"> comments
+            <textarea name="Rajini" id="Rajini"></textarea>
+        </div>
+        <div class="form-row">
+            <label for=""></label>
+        </div>
+        <div class="form-row">
+            gender:
+            <input type="radio" id="gender" name="female" value="Female">
+             <label for="female">female</label>
+             <input type="radio" id="gender" name="male" value="male">
+             <label for="male">male</label>
+        </div>
+        <div class="form-row">
+            <input type="submit">
+        </div>
+
+           
+            
+        </form>
+        <p>The action attribute specifies where the form data will be sent when the user submits the form. It usually contains the URL of the page or server that processes the information.</p>
+        <p>The method attribute specifies how the form data will be sent to the server. The two most common methods are GET and POST.</p>
+        <p>GET: Sends form information through the URL as part of the query string. The information is visible in the address bar and can be bookmarked. POST: Sends form information in the request body rather than the URL. The information is not displayed in the address bar and is better for submitting sensitive or large amounts of data. HTTPS is still needed to protect sensitive information.</p>
+        <p>A preset value is information that is already entered into a form control. A placeholder is a hint that appears inside an empty field and disappears when the user starts typing.
+
+Text box: Use the value attribute to set a preset value. Use placeholder to show a hint.
+
+Textarea: Put the preset text between the opening and closing <textarea> tags. Use placeholder for a hint.
+
+Select box: Add the selected attribute to the option you want selected by default.
+
+Checkbox: Use the checked attribute to have it checked by default.
+
+Radio button: Use the checked attribute to select a radio button by default.</p>
+<p>HTML5 added several new input types:
+
+email
+
+url
+
+number
+
+range
+
+date
+
+time
+
+datetime-local
+
+month
+
+week
+
+color
+
+search
+
+tel</p>
+
+
+    </main>
+    <footer>
+        &copy; 2026 Rajini
+    </footer>
+    
+</body>
+</html>
