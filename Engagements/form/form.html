@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <link rel="stylesheet" href="form.css">
     <header>
         <h1> Rajini's web design</h1>
     </header>
     <main>
         <form action="formprocessing.html" method="get">
+            <fieldset>
+            <legend>About you</legend>
+
             <div class="form-row"
             <label for="personname"> Full Name</label> 
-            <input id="personname" type="text" name="fullname" placeholder="fullname"
+            <input id="personname" type="text" name="fullname" placeholder="fullname">
         </div>
         <div class="form-row">
             <label for="state">state</label>
@@ -26,68 +30,56 @@
             </select>
             <input type="text" name="email">
         </div>
-        <div class="form-row"> password: 
-             <input type="password" name="password" placeholder="maximum11character"
+        <fieldset>
+            <legend>account</legend>
+        <div class="form-row">
+            <label for="email"> Email</label>
+            <input type="email" id="email" name="email">
+          
         </div>
+        <div class="form-row"> Password: 
+             <input type="password" name="password" placeholder="maximum11character"
+        </div></fieldset>
         <div class="form-row"> comments
             <textarea name="Rajini" id="Rajini"></textarea>
         </div>
         <div class="form-row">
             <label for=""></label>
         </div>
+        <fieldset>
+            <legend>Questions they answer</legend>
         <div class="form-row">
             gender:
             <input type="radio" id="gender" name="female" value="Female">
              <label for="female">female</label>
              <input type="radio" id="gender" name="male" value="male">
              <label for="male">male</label>
-        </div>
+        </div></fieldset>
         <div class="form-row">
             <input type="submit">
         </div>
+        <div class="form-row">
+             <label for="agree"> agree to the terms and conditions :</label>
+            <input type="checkbox" id="agree" name="agree" value="yes">
+        </div>
+        <input type="submit" value="sign up">
+        </div>
+        
 
            
             
         </form>
-        <p>The action attribute specifies where the form data will be sent when the user submits the form. It usually contains the URL of the page or server that processes the information.</p>
-        <p>The method attribute specifies how the form data will be sent to the server. The two most common methods are GET and POST.</p>
-        <p>GET: Sends form information through the URL as part of the query string. The information is visible in the address bar and can be bookmarked. POST: Sends form information in the request body rather than the URL. The information is not displayed in the address bar and is better for submitting sensitive or large amounts of data. HTTPS is still needed to protect sensitive information.</p>
-        <p>A preset value is information that is already entered into a form control. A placeholder is a hint that appears inside an empty field and disappears when the user starts typing.
+        <p>Use CSS to change colors, fonts, backgrounds, borders, and spacing.
 
-Text box: Use the value attribute to set a preset value. Use placeholder to show a hint.
+Add padding and margins to organize the form.
 
-Textarea: Put the preset text between the opening and closing <textarea> tags. Use placeholder for a hint.
+Use rounded corners, shadows, and different button styles to make it look attractive.
 
-Select box: Add the selected attribute to the option you want selected by default.
+Use CSS layouts like Flexbox or Grid to arrange form elements.</p>
 
-Checkbox: Use the checked attribute to have it checked by default.
+<p>The professor likes Flexbox because it makes it easier to organize and align form elements. It is flexible, saves time, and helps forms adjust to different screen sizes.</p>
 
-Radio button: Use the checked attribute to select a radio button by default.</p>
-<p>HTML5 added several new input types:
-
-email
-
-url
-
-number
-
-range
-
-date
-
-time
-
-datetime-local
-
-month
-
-week
-
-color
-
-search
-
-tel</p>
+<p>A good mobile form is simple, easy to read, and easy to navigate. It should have large buttons, clear labels, enough spacing, and fields that fit the screen. It should also minimize typing and work well on different mobile devices.</p>
 
 
     </main>
