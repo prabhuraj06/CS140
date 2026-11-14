@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms project</title>
+    <link rel="stylesheet" href="Forms.css">
+</head>
+<body>
+    <header><h1>Mission survey</h1></header>
+   
+    <main>
+        <h3>To help and make them to keep in track</h3>
+       
+        <div class="form-row"></div>
+        <form action="formprocessing.html" method="get">
+             <fieldset>
+            <legend>Account</legend>
+           
+
+        <div class="form-row">
+            <label for="personname"> Full Name</label> 
+            <input id="personname" type="text" name="Fullname" placeholder="Fullname">
+        </div>
+         <div class="form-row">
+            <label for="Lastname"> Last Name</label> 
+            <input id="Lastname" type="text" name="Lastname" placeholder="Lastname">
+        </div>
+
+        <div class="form-row">
+            <label for="state">State</label>
+            <select name="state" id="state">
+                <option value="Tamilnadu">Tamilnadu</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Andhrapradesh">Andhrapradesh</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Telangana">Telangana</option>
+             </div>
+            
+                <div class="form-row">
+                     <div class="mission"></div>
+                   
+                    
+                    <label for="Gender">  Gender:
+                    <input type="radio" name="Gender" value="Gender">Female</label>
+                    <label for="Gender">
+                    <input type="radio" name="Gender" value="Gender">Male</label>
+                </div>
+                <div class="form-row">
+                    <label for="Missionstart">Mission start date:</label>
+                    <input type="date" name="Missionstart" id="Missionstart">
+
+                </div>
+                 <div class="form-row">
+                    <label for="Missionends">Mission end date:</label>
+                    <input type="date" name="Missionends" id="Missionends">
+                 </div>
+                 <div class="form-row">
+                    <label for="Email">Email</label>
+                    <input type="Email" name="Email" placeholder="sample@gmail.com">
+                 </div>
+                 <div class="form-row">
+                    <label for="Phone">Phonenumber</label>
+                    <input type="tel" name="Phone" placeholder="+1808608208" id="Phone">
+                 </div>
+                 <div class="form-row">
+                    <label for="Password">Password</label>
+                    <input type="password" name="Password" placeholder="Mustcontains11digit">
+        
+                    
+                 </div>
+                  <div class="form-row">
+                    <label for="Comments">Comments</label>
+                    <textarea name="Comments" id="Comments"></textarea>
+                  </div>
+                  <h4>Terms and conditions</h4>
+                  <p>Just making sure you read everything</p>
+                  <div class="form-row">
+                    <div class="mission"></div>
+                    
+                    <label><input type="checkbox" name="Agree" value="Agree">I agree to the terms and conditions</label>
+                  </div>
+                
+                
+                  <div class="form-row">
+                    <input type="submit" value="submit">
+                  </div>
+                </fieldset>
+        
+        </form>
+    </main>
+    <footer>
+        &copy;Rajini2026
+    </footer>
+
+    
+</body>
+</html>
