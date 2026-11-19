@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,87 +6,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
     <link rel="stylesheet" href="form.css">
-    <header>
-        <h1> Rajini's web design</h1>
-    </header>
-    <main>
-        
-            </select>
-            <input type="text" name="email">
-        </div>
-        <fieldset>
-            <legend>account</legend>
-        <div class="form-row"><form action="formprocessing.html" method="get">
-            <fieldset>
-            <legend>About you</legend>
+</head>
 
-            <div class="form-row"
-            <label for="personname"> Full Name</label> 
-            <input id="personname" type="text" name="fullname" placeholder="fullname">
-        </div>
-        <div class="form-row">
-            <label for="state">state</label>
-            <select name="state" id="state">
-                <option value="Tamilnadu">Tamilnadu</option>
-                <option value="Karnataka">Karnataka</option>
-                <option value="Andhrapradesh">Andhrapradesh</option>
-                <option value="Kerala">Kerala</option>
-                <option value="Telangana">Telangana</option>
+<body>
 
-                
-            <label for="email"> Email</label>
-            <input type="email" id="email" name="email">
-          
-        </div>
-        <div class="form-row"> Password: 
-             <input type="password" name="password" placeholder="maximum11character"
-        </div></fieldset>
-        <div class="form-row"> comments
-            <textarea name="Rajini" id="Rajini"></textarea>
-        </div>
-        <div class="form-row">
-            <label for=""></label>
-        </div>
+<header>
+    <h1>Rajini's web design</h1>
+</header>
+
+<main>
+
+    <form id="myform">
+
         <fieldset>
-            <legend>Questions they answer</legend>
+            <legend>About You</legend>
+
+            <div class="form-row">
+                <label for="personname">Full Name</label>
+                <input id="personname" type="text" name="fullname">
+            </div>
+
+            <div class="form-row">
+                <label for="state">State</label>
+                <select name="state" id="state">
+                    <option value="Tamilnadu">Tamilnadu</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Andhrapradesh">Andhrapradesh</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Telangana">Telangana</option>
+                </select>
+            </div>
+
+            <div class="form-row">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div class="form-row">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+            </div>
+
+            <div class="form-row">
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age">
+            </div>
+
+            <div class="form-row">
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Questions They Answer</legend>
+
+            Gender:
+
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+
+        </fieldset>
+
         <div class="form-row">
-            gender:
-            <input type="radio" id="gender" name="female" value="Female">
-             <label for="female">female</label>
-             <input type="radio" id="gender" name="male" value="male">
-             <label for="male">male</label>
-        </div></fieldset>
-        <div class="form-row">
-            <input type="submit">
-        </div>
-        <div class="form-row">
-             <label for="agree"> agree to the terms and conditions :</label>
+            <label for="agree">Agree to the terms and conditions:</label>
             <input type="checkbox" id="agree" name="agree" value="yes">
         </div>
-        <input type="submit" value="sign up">
-        </div>
-        
 
-           
-            
-        </form>
-        <p>Use CSS to change colors, fonts, backgrounds, borders, and spacing.
+        <input type="submit" value="Sign Up">
 
-Add padding and margins to organize the form.
+    </form>
 
-Use rounded corners, shadows, and different button styles to make it look attractive.
+    <p id="message"></p>
 
-Use CSS layouts like Flexbox or Grid to arrange form elements.</p>
+    <p>AJAX sends and receives data without reloading the webpage.</p>
+    <p>To keep HTML organized and make JavaScript easier to edit and debug.</p>
+    <p>Press F12, open Console, and check red errors. Click an error to find its file and line number.</p>
+    <p>Yes, my IDs match:
 
-<p>The professor likes Flexbox because it makes it easier to organize and align form elements. It is flexible, saves time, and helps forms adjust to different screen sizes.</p>
+myform
 
-<p>A good mobile form is simple, easy to read, and easy to navigate. It should have large buttons, clear labels, enough spacing, and fields that fit the screen. It should also minimize typing and work well on different mobile devices.</p>
+personname
 
+email
 
-    </main>
-    <footer>
-        &copy; 2026 Rajini
-    </footer>
-    
+password
+
+age
+
+comments
+
+message</p>
+</main>
+
+<footer>
+    &copy; 2026 Rajini
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
